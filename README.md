@@ -24,7 +24,13 @@ measure the test's power (pure receiver effect) and its size (pure slow drift).
 * `names_null.py` + `test_names_null.py`: the analysis (job `elephant-names-null-v1`, queued).
 * `describe_elephant.py` + `test_describe_elephant.py`: label-only description (job
   `elephant-names-describe-v1`, queued).
-* A grader will be published before the result; then `RESULTS-ELEPHANT.md`.
+* `test_elephant_results.py`: the grader, published 2026-11-20 before the job returned. With
+  its own code it re-derives the gates, the effect-matched sizes, power, size and the naive
+  null's fooled rate from the stored calibration p values, the verdict, predictions Q1-Q8 and
+  the Brier score; checks every p value against its permutation lattice and against the bounds
+  its own null quantiles allow; and fixes the exact lines `RESULTS-ELEPHANT.md` must print.
+  Stdlib only: `python -m unittest -v test_elephant_results`.
+* Next: `RESULTS-ELEPHANT.md`, graded by that file.
 
 ## Reproduce
 ```

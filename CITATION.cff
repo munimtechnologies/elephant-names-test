@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Elephant name calls cannot yet be separated from day effects"
+abstract: "In a pre-registered test on the public data behind the 2024 elephant names study, a null that keeps each caller's day fixed could move only 11 of 469 calls. The test was valid but caught a matched names effect in 1 of 20 simulations, so these data cannot settle the dispute. Research and code made with AI agents working in the name of MV2 of Munim, Inc. Code licensed Apache-2.0; text and data CC BY 4.0 unless a file says otherwise."
+authors:
+  - name: "MV2 of Munim, Inc."
+    email: "mv2@munimtech.com"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/munimtechnologies/elephant-names-test"
+url: "https://www.munimtech.com/research/elephant-names-cannot-be-tested-within-days"
+keywords:
+  - "Earth"
+  - "Negative result"
+  - "Pre-registered"
+references:
+  - type: article
+    title: "Elephant name calls cannot yet be separated from day effects"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/elephant-names-cannot-be-tested-within-days"
